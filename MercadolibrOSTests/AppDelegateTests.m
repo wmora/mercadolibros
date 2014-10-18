@@ -10,6 +10,7 @@
 #import <XCTest/XCTest.h>
 #import "AppDelegate.h"
 #import "WMHomeViewController.h"
+#import "WMNavigationManager.h"
 
 @interface AppDelegateTests : XCTestCase {
 	@private
@@ -23,22 +24,26 @@
 - (void)setUp {
 	[super setUp];
 	appDelegate = [[UIApplication sharedApplication] delegate];
-	[appDelegate application:[UIApplication sharedApplication] didFinishLaunchingWithOptions:@{}];
+	[appDelegate application:[UIApplication sharedApplication] didFinishLaunchingWithOptions:nil];
+}
+
+- (void)tearDown {
+	[super tearDown];
+	[[WMNavigationManager sharedManager] clear];
 }
 
 - (void)testAppDelegate {
 	XCTAssertNotNil(appDelegate, @"Delegate not found");
 }
 
-- (void)testAppDelegateShouldCreateNavigationController {
-	UINavigationController *navigationController = (UINavigationController *)appDelegate.window.rootViewController;
-	XCTAssertNotNil(navigationController, @"UINavigationController not found");
+- (void)testAppDelegateShouldAddViewControllerToNavigationController {
+	id homeViewController = [[WMNavigationManager sharedManager] topViewController];
+	XCTAssertNotNil(homeViewController);
 }
 
-- (void)testAppDelegateShouldAddHomeViewControllerToNavigationController {
-	UINavigationController *navigationController = (UINavigationController *)appDelegate.window.rootViewController;
-	WMHomeViewController *homeViewController = (WMHomeViewController *)navigationController.topViewController;
-	XCTAssertNotNil(homeViewController, @"WMHomeViewController not found");
+- (void)testAddedViewControllerShouldBeHomeViewController {
+	id homeViewController = [[WMNavigationManager sharedManager] topViewController];
+	XCTAssert([homeViewController isKindOfClass:[WMHomeViewController class]]);
 }
 
 @end

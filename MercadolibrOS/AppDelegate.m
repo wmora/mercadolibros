@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "WMHomeViewController.h"
+#import "WMNavigationManager.h"
 
 @interface AppDelegate ()
 
@@ -19,12 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	// Add navigation controller as root view controller
-	UINavigationController *navigationController = [[UINavigationController alloc]init];
-	self.window.rootViewController = navigationController;
-	// Load home view controller
-	WMHomeViewController *homeViewController = [[WMHomeViewController alloc] initWithNibName:@"WMHomeViewController" bundle:nil];
-	[navigationController pushViewController:homeViewController animated:YES];
+	[[WMNavigationManager sharedManager] configureRootViewControllerWithDelegate:self];
+	[[WMNavigationManager sharedManager] navigateToHomeViewController];
 	[self.window makeKeyAndVisible];
 	return YES;
 }
