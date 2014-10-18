@@ -10,4 +10,12 @@
 
 @implementation WMPaging
 
+- (id)init {
+	self = [super init];
+	if (self) {
+		self.limit = [NSNumber numberWithInt:20];
+	}
+	return self;
+}
+
 @end

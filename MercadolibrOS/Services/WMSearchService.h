@@ -12,6 +12,6 @@
 
 @interface WMSearchService : NSObject
 
-+ (WMSearch *)searchWithQuery:(NSString *)query paging:(WMPaging *)paging;
++ (void)searchWithQuery:(NSString *)query paging:(WMPaging *)paging completionHandler:(void (^)(WMSearch *search, NSError *error))completionHandler;
 
 @end

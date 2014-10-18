@@ -9,5 +9,6 @@ end
 
 target "MercadolibrOSTests", :exclusive => true do
   pod 'OCMock', '~> 3.1'
+  pod 'OHHTTPStubs', '~> 3.1'
 end
 

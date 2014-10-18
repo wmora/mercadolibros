@@ -11,8 +11,9 @@
 
 @interface WMSearch : NSObject
 
-@property (strong, nonatomic) NSString *siteId;
 @property (strong, nonatomic) NSString *query;
 @property (strong, nonatomic) WMPaging *paging;
+
+- (id)initWithData:(NSData *)data;
 
 @end

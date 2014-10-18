@@ -13,6 +13,7 @@
 		08506C9319F2DE9A00B206B9 /* WMSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 08506C9219F2DE9A00B206B9 /* WMSearchService.m */; };
 		08506C9619F2DF2F00B206B9 /* WMSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 08506C9519F2DF2F00B206B9 /* WMSearch.m */; };
 		08506C9919F2DF6C00B206B9 /* WMPaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 08506C9819F2DF6C00B206B9 /* WMPaging.m */; };
+		08506CA419F3223800B206B9 /* search_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 08506CA219F3223800B206B9 /* search_success.json */; };
 		08FFCC3619F1E02B00914866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC3519F1E02B00914866 /* main.m */; };
 		08FFCC3919F1E02B00914866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC3819F1E02B00914866 /* AppDelegate.m */; };
 		08FFCC4119F1E02B00914866 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08FFCC4019F1E02B00914866 /* Images.xcassets */; };
@@ -45,6 +46,7 @@
 		08506C9519F2DF2F00B206B9 /* WMSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSearch.m; sourceTree = "<group>"; };
 		08506C9719F2DF6C00B206B9 /* WMPaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPaging.h; sourceTree = "<group>"; };
 		08506C9819F2DF6C00B206B9 /* WMPaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPaging.m; sourceTree = "<group>"; };
+		08506CA219F3223800B206B9 /* search_success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_success.json; sourceTree = "<group>"; };
 		08FFCC3019F1E02B00914866 /* MercadolibrOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MercadolibrOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FFCC3419F1E02B00914866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08FFCC3519F1E02B00914866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -130,6 +132,14 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		08506CA119F321CB00B206B9 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				08506CA219F3223800B206B9 /* search_success.json */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 		08FFCC2719F1E02B00914866 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +188,7 @@
 		08FFCC4C19F1E02C00914866 /* MercadolibrOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				08506CA119F321CB00B206B9 /* Responses */,
 				08506C8F19F2DE5400B206B9 /* WMSearchServiceTests.m */,
 				08506C6D19F2829C00B206B9 /* WMNavigationManagerTests.m */,
 				08FFCC6019F2030700914866 /* WMHomeViewControllerTests.m */,
@@ -306,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08506CA419F3223800B206B9 /* search_success.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

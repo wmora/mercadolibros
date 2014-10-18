@@ -10,4 +10,15 @@
 
 @implementation WMSearch
 
+- (id)initWithData:(NSData *)data {
+	self = [super init];
+	if (self) {
+		NSDictionary *jsonData = [NSJSONSerialization JSONObjectWithData:data
+		                                                         options:NSJSONReadingMutableContainers
+		                                                           error:nil];
+		self.query = (NSString *)[jsonData objectForKey:@"query"];
+	}
+	return self;
+}
+
 @end

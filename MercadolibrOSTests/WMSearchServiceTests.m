@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import <OHHTTPStubs/OHHTTPStubs.h>
 #import "WMSearchService.h"
 #import "WMSearch.h"
 
@@ -19,17 +20,48 @@
 
 - (void)setUp {
 	[super setUp];
-	// Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
-	// Put teardown code here. This method is called after the invocation of each test method in the class.
 	[super tearDown];
+	[OHHTTPStubs removeAllStubs];
 }
 
-- (void)testSearchWithQueryShouldReturnASearchObject {
-	WMSearch *search =  [WMSearchService searchWithQuery:@"ipod" paging:nil];
-	XCTAssertNotNil(search);
+- (void)mockSuccessResponse {
+	[OHHTTPStubs stubRequestsPassingTest: ^BOOL (NSURLRequest *request) {
+	    return [request.URL.host isEqualToString:@"api.mercadolibre.com"];
+	} withStubResponse: ^OHHTTPStubsResponse *(NSURLRequest *request) {
+	    return [OHHTTPStubsResponse responseWithFileAtPath:OHPathForFileInBundle(@"search_success.json", nil)
+	                                            statusCode:200 headers:@{ @"Content-Type":@"text/json" }];
+	}];
+}
+
+- (void)mockErrorResponse {
+	[OHHTTPStubs stubRequestsPassingTest: ^BOOL (NSURLRequest *request) {
+	    return [request.URL.host isEqualToString:@"api.mercadolibre.com"];
+	} withStubResponse: ^OHHTTPStubsResponse *(NSURLRequest *request) {
+	    return [OHHTTPStubsResponse responseWithError:[NSError errorWithDomain:NSURLErrorDomain code:kCFURLErrorNotConnectedToInternet userInfo:nil]];
+	}];
+}
+
+- (void)testSearchWithQueryShouldReturnASearchInstanceOnRequestSuccess {
+	[self mockSuccessResponse];
+	XCTestExpectation *expectation = [self expectationWithDescription:@"asynchronous request"];
+	[WMSearchService searchWithQuery:@"ipod" paging:nil completionHandler: ^(WMSearch *search, NSError *error) {
+	    XCTAssertNotNil(search);
+	    [expectation fulfill];
+	}];
+	[self waitForExpectationsWithTimeout:10.0 handler:nil];
+}
+
+- (void)testSearchWithQueryShouldReturnErrorOnRequestError {
+	[self mockErrorResponse];
+	XCTestExpectation *expectation = [self expectationWithDescription:@"asynchronous request"];
+	[WMSearchService searchWithQuery:@"ipod" paging:nil completionHandler: ^(WMSearch *search, NSError *error) {
+	    XCTAssertNotNil(error);
+	    [expectation fulfill];
+	}];
+	[self waitForExpectationsWithTimeout:10.0 handler:nil];
 }
 
 @end

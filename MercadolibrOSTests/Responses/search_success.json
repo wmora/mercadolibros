@@ -1,0 +1,1091 @@
+{
+    "site_id": "MLA",
+    "query": "ipod",
+    "paging": {
+        "total": 1200,
+        "offset": 0,
+        "limit": 10
+    },
+    "results": [
+                {
+                "id": "MLA521173586",
+                "site_id": "MLA",
+                "title": "Apple Ipod Touch 32gb 5ta Generacion Video Hd Retina 32 Gb",
+                "subtitle": null,
+                "seller": {
+                "id": 115871980,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false
+                },
+                "price": 7699.99,
+                "currency_id": "ARS",
+                "available_quantity": 61,
+                "sold_quantity": 127,
+                "buying_mode": "buy_it_now",
+                "listing_type_id": "gold",
+                "stop_time": "2014-10-24T19:07:35.000Z",
+                "condition": "new",
+                "permalink": "http://articulo.mercadolibre.com.ar/MLA-521173586-apple-ipod-touch-32gb-5ta-generacion-video-hd-retina-32-gb-_JM",
+                "thumbnail": "http://mla-s1-p.mlstatic.com/16353-MLA20119002067_062014-I.jpg",
+                "accepts_mercadopago": true,
+                "installments": {
+                "quantity": 12,
+                "amount": 981.68,
+                "currency_id": "ARS"
+                },
+                "address": {
+                "state_id": "AR-C",
+                "state_name": "Capital Federal",
+                "city_id": "",
+                "city_name": "Capital Federal"
+                },
+                "shipping": {
+                "free_shipping": true,
+                "mode": "me2"
+                },
+                "seller_address": {
+                "id": 129682499,
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "AR",
+                "name": "Argentina"
+                },
+                "state": {
+                "id": "AR-C",
+                "name": "Capital Federal"
+                },
+                "city": {
+                "id": "",
+                "name": "Capital Federal"
+                },
+                "latitude": -34.56358,
+                "longitude": -58.453884
+                },
+                "attributes": [],
+                "original_price": null,
+                "category_id": "MLA43718"
+                },
+                {
+                "id": "MLA528561742",
+                "site_id": "MLA",
+                "title": "Ipod 4g 8gb",
+                "subtitle": null,
+                "seller": {
+                "id": 155366493,
+                "power_seller_status": null,
+                "car_dealer": false,
+                "real_estate_agency": false
+                },
+                "price": 1299,
+                "currency_id": "ARS",
+                "available_quantity": 1,
+                "sold_quantity": 6,
+                "buying_mode": "buy_it_now",
+                "listing_type_id": "silver",
+                "stop_time": "2014-12-14T17:22:41.000Z",
+                "condition": "used",
+                "permalink": "http://articulo.mercadolibre.com.ar/MLA-528561742-ipod-4g-8gb-_JM",
+                "thumbnail": "http://mla-s2-p.mlstatic.com/19752-MLA20176881166_102014-I.jpg",
+                "accepts_mercadopago": true,
+                "installments": {
+                "quantity": 12,
+                "amount": 165.61,
+                "currency_id": "ARS"
+                },
+                "address": {
+                "state_id": "AR-C",
+                "state_name": "Capital Federal",
+                "city_id": "",
+                "city_name": "Capital Federal"
+                },
+                "shipping": {
+                "free_shipping": false,
+                "mode": "me2"
+                },
+                "seller_address": {
+                "id": 134543310,
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "AR",
+                "name": "Argentina"
+                },
+                "state": {
+                "id": "AR-C",
+                "name": "Capital Federal"
+                },
+                "city": {
+                "id": "",
+                "name": "Capital Federal"
+                },
+                "latitude": -34.600704,
+                "longitude": -58.446705
+                },
+                "attributes": [],
+                "original_price": null,
+                "category_id": "MLA32321"
+                },
+                {
+                "id": "MLA524330607",
+                "site_id": "MLA",
+                "title": "Apple Ipod Touch 32gb 5ta Generacion Video Hd Retina Ios7",
+                "subtitle": null,
+                "seller": {
+                "id": 7055243,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false
+                },
+                "price": 4089,
+                "currency_id": "ARS",
+                "available_quantity": 962,
+                "sold_quantity": 37,
+                "buying_mode": "buy_it_now",
+                "listing_type_id": "gold",
+                "stop_time": "2014-11-15T19:07:15.000Z",
+                "condition": "new",
+                "permalink": "http://articulo.mercadolibre.com.ar/MLA-524330607-apple-ipod-touch-32gb-5ta-generacion-video-hd-retina-ios7-_JM",
+                "thumbnail": "http://mla-s1-p.mlstatic.com/19052-MLA20164236472_092014-I.jpg",
+                "accepts_mercadopago": true,
+                "installments": {
+                "quantity": 12,
+                "amount": 521.31,
+                "currency_id": "ARS"
+                },
+                "address": {
+                "state_id": "AR-C",
+                "state_name": "Capital Federal",
+                "city_id": "TUxBQlBBTDI1MTVa",
+                "city_name": "Palermo"
+                },
+                "shipping": {
+                "free_shipping": true,
+                "mode": "me2"
+                },
+                "seller_address": {
+                "id": 99717158,
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "AR",
+                "name": "Argentina"
+                },
+                "state": {
+                "id": "AR-C",
+                "name": "Capital Federal"
+                },
+                "city": {
+                "id": "TUxBQlBBTDI1MTVa",
+                "name": "Palermo"
+                },
+                "latitude": -34.59081,
+                "longitude": -58.414223
+                },
+                "attributes": [],
+                "original_price": 4979,
+                "category_id": "MLA43718"
+                },
+                {
+                "id": "MLA528826403",
+                "site_id": "MLA",
+                "title": "Ipod Nano 16gb 7ma Generación Apple - Obelisco Fact A O B",
+                "subtitle": null,
+                "seller": {
+                "id": 107751665,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false
+                },
+                "price": 2599,
+                "currency_id": "ARS",
+                "available_quantity": 59,
+                "sold_quantity": 60,
+                "buying_mode": "buy_it_now",
+                "listing_type_id": "gold_premium",
+                "stop_time": "2014-12-16T14:34:40.000Z",
+                "condition": "new",
+                "permalink": "http://articulo.mercadolibre.com.ar/MLA-528826403-ipod-nano-16gb-7ma-generacion-apple-obelisco-fact-a-o-b-_JM",
+                "thumbnail": "http://mla-s2-p.mlstatic.com/12998-MLA20070164800_032014-I.jpg",
+                "accepts_mercadopago": true,
+                "installments": {
+                "quantity": 12,
+                "amount": 331.35,
+                "currency_id": "ARS"
+                },
+                "address": {
+                "state_id": "AR-C",
+                "state_name": "Capital Federal",
+                "city_id": "",
+                "city_name": "Capital Federal"
+                },
+                "shipping": {
+                "free_shipping": true,
+                "mode": "me2"
+                },
+                "seller_address": {
+                "id": 114448119,
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "AR",
+                "name": "Argentina"
+                },
+                "state": {
+                "id": "AR-C",
+                "name": "Capital Federal"
+                },
+                "city": {
+                "id": "",
+                "name": "Capital Federal"
+                },
+                "latitude": -34.60402,
+                "longitude": -58.386345
+                },
+                "attributes": [],
+                "original_price": null,
+                "category_id": "MLA51772"
+                },
+                {
+                "id": "MLA528228959",
+                "site_id": "MLA",
+                "title": "Ipod Touch 4g 8gb Muy Buen Estado En Su Caja",
+                "subtitle": null,
+                "seller": {
+                "id": 145548079,
+                "power_seller_status": null,
+                "car_dealer": false,
+                "real_estate_agency": false
+                },
+                "price": 1399.99,
+                "currency_id": "ARS",
+                "available_quantity": 1,
+                "sold_quantity": 0,
+                "buying_mode": "buy_it_now",
+                "listing_type_id": "silver",
+                "stop_time": "2014-12-12T23:39:17.000Z",
+                "condition": "used",
+                "permalink": "http://articulo.mercadolibre.com.ar/MLA-528228959-ipod-touch-4g-8gb-muy-buen-estado-en-su-caja-_JM",
+                "thumbnail": "http://mla-s2-p.mlstatic.com/9224-MLA20013420468_112013-I.jpg",
+                "accepts_mercadopago": true,
+                "installments": {
+                "quantity": 12,
+                "amount": 178.49,
+                "currency_id": "ARS"
+                },
+                "address": {
+                "state_id": "AR-B",
+                "state_name": "Buenos Aires",
+                "city_id": "TUxBQ01BTHZpbmFz",
+                "city_name": "Malvinas Argentinas"
+                },
+                "shipping": {
+                "free_shipping": false,
+                "mode": "me2"
+                },
+                "seller_address": {
+                "id": 129174127,
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "AR",
+                "name": "Argentina"
+                },
+                "state": {
+                "id": "AR-B",
+                "name": "Buenos Aires"
+                },
+                "city": {
+                "id": "TUxBQ01BTHZpbmFz",
+                "name": "Malvinas Argentinas"
+                },
+                "latitude": "",
+                "longitude": ""
+                },
+                "attributes": [],
+                "original_price": null,
+                "category_id": "MLA36583"
+                },
+                {
+                "id": "MLA525367096",
+                "site_id": "MLA",
+                "title": "Apple Ipod Touch 32gb 5ta Generacion Video Hd Gtía Oficial",
+                "subtitle": null,
+                "seller": {
+                "id": 110242209,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false
+                },
+                "price": 3999,
+                "currency_id": "ARS",
+                "available_quantity": 8,
+                "sold_quantity": 45,
+                "buying_mode": "buy_it_now",
+                "listing_type_id": "gold",
+                "stop_time": "2014-11-22T18:44:15.000Z",
+                "condition": "new",
+                "permalink": "http://articulo.mercadolibre.com.ar/MLA-525367096-apple-ipod-touch-32gb-5ta-generacion-video-hd-gtia-oficial-_JM",
+                "thumbnail": "http://mla-s2-p.mlstatic.com/19270-MLA20168102583_092014-I.jpg",
+                "accepts_mercadopago": true,
+                "installments": {
+                "quantity": 12,
+                "amount": 509.84,
+                "currency_id": "ARS"
+                },
+                "address": {
+                "state_id": "AR-C",
+                "state_name": "Capital Federal",
+                "city_id": "",
+                "city_name": "capital federal"
+                },
+                "shipping": {
+                "free_shipping": false,
+                "mode": "me2"
+                },
+                "seller_address": {
+                "id": 144536034,
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "AR",
+                "name": "Argentina"
+                },
+                "state": {
+                "id": "AR-C",
+                "name": "Capital Federal"
+                },
+                "city": {
+                "id": "",
+                "name": "capital federal"
+                },
+                "latitude": -34.55697,
+                "longitude": -58.44572
+                },
+                "attributes": [],
+                "original_price": 4999,
+                "category_id": "MLA43718"
+                },
+                {
+                "id": "MLA523687121",
+                "site_id": "MLA",
+                "title": "Apple Ipod Touch 16gb 5ta Generacion Video Hd Caja Sellada",
+                "subtitle": null,
+                "seller": {
+                "id": 118322275,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false
+                },
+                "price": 3899.96,
+                "currency_id": "ARS",
+                "available_quantity": 235,
+                "sold_quantity": 65,
+                "buying_mode": "buy_it_now",
+                "listing_type_id": "gold_premium",
+                "stop_time": "2014-11-11T01:09:07.000Z",
+                "condition": "new",
+                "permalink": "http://articulo.mercadolibre.com.ar/MLA-523687121-apple-ipod-touch-16gb-5ta-generacion-video-hd-caja-sellada-_JM",
+                "thumbnail": "http://mla-s2-p.mlstatic.com/16908-MLA20130138950_072014-I.jpg",
+                "accepts_mercadopago": true,
+                "installments": {
+                "quantity": 12,
+                "amount": 497.21,
+                "currency_id": "ARS"
+                },
+                "address": {
+                "state_id": "AR-C",
+                "state_name": "Capital Federal",
+                "city_id": "TUxBQlJFQzkyMTVa",
+                "city_name": "Recoleta"
+                },
+                "shipping": {
+                "free_shipping": false,
+                "mode": "custom"
+                },
+                "seller_address": {
+                "id": 82435194,
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "AR",
+                "name": "Argentina"
+                },
+                "state": {
+                "id": "AR-C",
+                "name": "Capital Federal"
+                },
+                "city": {
+                "id": "TUxBQlJFQzkyMTVa",
+                "name": "Recoleta"
+                },
+                "latitude": "",
+                "longitude": ""
+                },
+                "attributes": [],
+                "original_price": null,
+                "category_id": "MLA36918"
+                },
+                {
+                "id": "MLA520554449",
+                "site_id": "MLA",
+                "title": "Apple Ipod Nano 7ma Generación 16gb Ultimo Modelo Nuevo",
+                "subtitle": null,
+                "seller": {
+                "id": 118350112,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false
+                },
+                "price": 2399.96,
+                "currency_id": "ARS",
+                "available_quantity": 295,
+                "sold_quantity": 110,
+                "buying_mode": "buy_it_now",
+                "listing_type_id": "gold",
+                "stop_time": "2014-10-20T14:15:47.000Z",
+                "condition": "new",
+                "permalink": "http://articulo.mercadolibre.com.ar/MLA-520554449-apple-ipod-nano-7ma-generacion-16gb-ultimo-modelo-nuevo-_JM",
+                "thumbnail": "http://mla-s2-p.mlstatic.com/11887-MLA20049991601_022014-I.jpg",
+                "accepts_mercadopago": true,
+                "installments": {
+                "quantity": 12,
+                "amount": 305.97,
+                "currency_id": "ARS"
+                },
+                "address": {
+                "state_id": "AR-C",
+                "state_name": "Capital Federal",
+                "city_id": "TUxBQlJFQzkyMTVa",
+                "city_name": "Recoleta"
+                },
+                "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified"
+                },
+                "seller_address": {
+                "id": 79347922,
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "AR",
+                "name": "Argentina"
+                },
+                "state": {
+                "id": "AR-C",
+                "name": "Capital Federal"
+                },
+                "city": {
+                "id": "TUxBQlJFQzkyMTVa",
+                "name": "Recoleta"
+                },
+                "latitude": -34.599438,
+                "longitude": -58.397198
+                },
+                "attributes": [],
+                "original_price": null,
+                "category_id": "MLA51771"
+                },
+                {
+                "id": "MLA526773337",
+                "site_id": "MLA",
+                "title": "Apple Ipod Touch 8 Gb 4° Generacion Nuevo! - Envio Gratis!!!",
+                "subtitle": null,
+                "seller": {
+                "id": 9331673,
+                "power_seller_status": null,
+                "car_dealer": false,
+                "real_estate_agency": false
+                },
+                "price": 2199.99,
+                "currency_id": "ARS",
+                "available_quantity": 1,
+                "sold_quantity": 0,
+                "buying_mode": "buy_it_now",
+                "listing_type_id": "silver",
+                "stop_time": "2014-12-02T05:28:10.000Z",
+                "condition": "new",
+                "permalink": "http://articulo.mercadolibre.com.ar/MLA-526773337-apple-ipod-touch-8-gb-4-generacion-nuevo-envio-gratis-_JM",
+                "thumbnail": "http://mla-s2-p.mlstatic.com/19576-MLA20173606003_102014-I.jpg",
+                "accepts_mercadopago": true,
+                "installments": {
+                "quantity": 12,
+                "amount": 280.48,
+                "currency_id": "ARS"
+                },
+                "address": {
+                "state_id": "AR-F",
+                "state_name": "La Rioja",
+                "city_id": "",
+                "city_name": "La Rioja"
+                },
+                "shipping": {
+                "free_shipping": true,
+                "mode": "me2"
+                },
+                "seller_address": {
+                "id": 129274548,
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "AR",
+                "name": "Argentina"
+                },
+                "state": {
+                "id": "AR-F",
+                "name": "La Rioja"
+                },
+                "city": {
+                "id": "",
+                "name": "La Rioja"
+                },
+                "latitude": "",
+                "longitude": ""
+                },
+                "attributes": [],
+                "original_price": null,
+                "category_id": "MLA32321"
+                },
+                {
+                "id": "MLA526780773",
+                "site_id": "MLA",
+                "title": "Apple Ipod Nano 16gb Original 7ma Generacion Colores Nuevos",
+                "subtitle": null,
+                "seller": {
+                "id": 115871980,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false
+                },
+                "price": 2398.98,
+                "currency_id": "ARS",
+                "available_quantity": 152,
+                "sold_quantity": 48,
+                "buying_mode": "buy_it_now",
+                "listing_type_id": "gold",
+                "stop_time": "2014-12-02T12:18:39.000Z",
+                "condition": "new",
+                "permalink": "http://articulo.mercadolibre.com.ar/MLA-526780773-apple-ipod-nano-16gb-original-7ma-generacion-colores-nuevos-_JM",
+                "thumbnail": "http://mla-s1-p.mlstatic.com/13433-MLA20077192714_042014-I.jpg",
+                "accepts_mercadopago": true,
+                "installments": {
+                "quantity": 12,
+                "amount": 305.85,
+                "currency_id": "ARS"
+                },
+                "address": {
+                "state_id": "AR-C",
+                "state_name": "Capital Federal",
+                "city_id": "",
+                "city_name": "Capital Federal"
+                },
+                "shipping": {
+                "free_shipping": false,
+                "mode": "me2"
+                },
+                "seller_address": {
+                "id": 129682499,
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                "id": "AR",
+                "name": "Argentina"
+                },
+                "state": {
+                "id": "AR-C",
+                "name": "Capital Federal"
+                },
+                "city": {
+                "id": "",
+                "name": "Capital Federal"
+                },
+                "latitude": -34.56358,
+                "longitude": -58.453884
+                },
+                "attributes": [],
+                "original_price": null,
+                "category_id": "MLA51772"
+                }
+                ],
+    "secondary_results": [],
+    "related_results": [],
+    "sort": {
+        "id": "relevance",
+        "name": "More relevant"
+    },
+    "available_sorts": [
+                        {
+                        "id": "price_asc",
+                        "name": "Lower price"
+                        },
+                        {
+                        "id": "price_desc",
+                        "name": "Higher price"
+                        }
+                        ],
+    "filters": [
+                {
+                "id": "category",
+                "name": "Categories",
+                "type": "text",
+                "values": [
+                           {
+                           "id": "MLA7262",
+                           "name": "Reproductores",
+                           "path_from_root": [
+                                              {
+                                              "id": "MLA1000",
+                                              "name": "Electrónica, Audio y Video"
+                                              },
+                                              {
+                                              "id": "MLA6205",
+                                              "name": "iPod"
+                                              },
+                                              {
+                                              "id": "MLA7262",
+                                              "name": "Reproductores"
+                                              }
+                                              ]
+                           }
+                           ]
+                }
+                ],
+    "available_filters": [
+                          {
+                          "id": "9997262-AMLA_7262_1",
+                          "name": "Modelo",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "9997262-AMLA_7262_1-MMLA6838",
+                                     "name": "iPod touch",
+                                     "results": 876
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_1-MMLA244",
+                                     "name": "iPod nano",
+                                     "results": 142
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_1-MMLA245",
+                                     "name": "iPod shuffle",
+                                     "results": 94
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_1-MMLA3917",
+                                     "name": "iPod classic",
+                                     "results": 38
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_1-MMLA246",
+                                     "name": "iPod video",
+                                     "results": 9
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_1-MMLA243",
+                                     "name": "iPod mini",
+                                     "results": 6
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_1-MMLA242",
+                                     "name": "iPod e iPod photo",
+                                     "results": 4
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_1-MMLA241",
+                                     "name": "Otros",
+                                     "results": 31
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "9997262-AMLA_7262_2",
+                          "name": "Capacidad",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA10627",
+                                     "name": "32 GB",
+                                     "results": 404
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA259",
+                                     "name": "8 GB",
+                                     "results": 311
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA13556",
+                                     "name": "16 GB",
+                                     "results": 204
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA250",
+                                     "name": "2 GB",
+                                     "results": 81
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA27092",
+                                     "name": "64 GB",
+                                     "results": 78
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA253",
+                                     "name": "4 GB",
+                                     "results": 21
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA260",
+                                     "name": "80 GB",
+                                     "results": 19
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA3964",
+                                     "name": "160 GB",
+                                     "results": 18
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA247",
+                                     "name": "1 GB",
+                                     "results": 17
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA252",
+                                     "name": "30 GB",
+                                     "results": 12
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA13554",
+                                     "name": "120 GB",
+                                     "results": 1
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA254",
+                                     "name": "40 GB",
+                                     "results": 1
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA256",
+                                     "name": "512 MB",
+                                     "results": 1
+                                     },
+                                     {
+                                     "id": "9997262-AMLA_7262_2-MMLA257",
+                                     "name": "6 GB",
+                                     "results": 1
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "discount",
+                          "name": "Discounts",
+                          "type": "range",
+                          "values": [
+                                     {
+                                     "id": "10-100",
+                                     "name": "From 10% off",
+                                     "results": 3
+                                     },
+                                     {
+                                     "id": "20-100",
+                                     "name": "From 20% off",
+                                     "results": 2
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "state",
+                          "name": "Location",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "TUxBUENBUGw3M2E1",
+                                     "name": "Capital Federal",
+                                     "results": 598
+                                     },
+                                     {
+                                     "id": "TUxBUEdSQWU4ZDkz",
+                                     "name": "Bs.As. G.B.A. Norte",
+                                     "results": 177
+                                     },
+                                     {
+                                     "id": "TUxBUEdSQXJlMDNm",
+                                     "name": "Bs.As. G.B.A. Sur",
+                                     "results": 124
+                                     },
+                                     {
+                                     "id": "TUxBUEdSQWVmNTVm",
+                                     "name": "Bs.As. G.B.A. Oeste",
+                                     "results": 95
+                                     },
+                                     {
+                                     "id": "TUxBUFNBTmU5Nzk2",
+                                     "name": "Santa Fe",
+                                     "results": 46
+                                     },
+                                     {
+                                     "id": "TUxBUENPUmFkZGIw",
+                                     "name": "Córdoba",
+                                     "results": 30
+                                     },
+                                     {
+                                     "id": "TUxBUFpPTmFpbnRl",
+                                     "name": "Buenos Aires Interior",
+                                     "results": 27
+                                     },
+                                     {
+                                     "id": "TUxBUENPU2ExMmFkMw",
+                                     "name": "Bs.As. Costa Atlántica",
+                                     "results": 12
+                                     },
+                                     {
+                                     "id": "TUxBUFNBTGFjMTJi",
+                                     "name": "Salta",
+                                     "results": 11
+                                     },
+                                     {
+                                     "id": "TUxBUE1FTmE5OWQ4",
+                                     "name": "Mendoza",
+                                     "results": 10
+                                     },
+                                     {
+                                     "id": "TUxBUFNBTnM0ZTcz",
+                                     "name": "San Luis",
+                                     "results": 10
+                                     },
+                                     {
+                                     "id": "TUxBUFRVQ244NmM3",
+                                     "name": "Tucumán",
+                                     "results": 9
+                                     },
+                                     {
+                                     "id": "TUxBUFLNT29iZmZm",
+                                     "name": "Río Negro",
+                                     "results": 7
+                                     },
+                                     {
+                                     "id": "TUxBUENPUnM5MjI0",
+                                     "name": "Corrientes",
+                                     "results": 4
+                                     },
+                                     {
+                                     "id": "TUxBUEVOVHMzNTdm",
+                                     "name": "Entre Ríos",
+                                     "results": 4
+                                     },
+                                     {
+                                     "id": "TUxBUEZPUmE1OTk5",
+                                     "name": "Formosa",
+                                     "results": 3
+                                     },
+                                     {
+                                     "id": "TUxBUExBWmEyNzY0",
+                                     "name": "La Rioja",
+                                     "results": 3
+                                     },
+                                     {
+                                     "id": "TUxBUENIVXQxNDM1MQ",
+                                     "name": "Chubut",
+                                     "results": 2
+                                     },
+                                     {
+                                     "id": "TUxBUE5FVW4xMzMzNQ",
+                                     "name": "Neuquén",
+                                     "results": 1
+                                     },
+                                     {
+                                     "id": "TUxBUENIQW8xMTNhOA",
+                                     "name": "Chaco",
+                                     "results": 1
+                                     },
+                                     {
+                                     "id": "TUxBUExBWmE1OWMy",
+                                     "name": "La Pampa",
+                                     "results": 1
+                                     },
+                                     {
+                                     "id": "TUxBUFNBTm5lYjU4",
+                                     "name": "San Juan",
+                                     "results": 1
+                                     },
+                                     {
+                                     "id": "TUxBUFNBTno3ZmY5",
+                                     "name": "Santa Cruz",
+                                     "results": 1
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "price",
+                          "name": "Price range",
+                          "type": "range",
+                          "values": [
+                                     {
+                                     "id": "*-1000.0",
+                                     "name": "Up to $1.000",
+                                     "results": 324
+                                     },
+                                     {
+                                     "id": "1000.0-2000.0",
+                                     "name": "$1.000 to $2.000",
+                                     "results": 394
+                                     },
+                                     {
+                                     "id": "2000.0-*",
+                                     "name": "More than $2.000",
+                                     "results": 482
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "accepts_mercadopago",
+                          "name": "MercadoPago filter",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "yes",
+                                     "name": "With MercadoPago",
+                                     "results": 889
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "installments",
+                          "name": "Pago",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "yes",
+                                     "name": "Installments",
+                                     "results": 880
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "condition",
+                          "name": "Condition filter",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "new",
+                                     "name": "New",
+                                     "results": 229
+                                     },
+                                     {
+                                     "id": "used",
+                                     "name": "Used",
+                                     "results": 960
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "shipping",
+                          "name": "Shipping",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "mercadoenvios",
+                                     "name": "MercadoEnvíos",
+                                     "results": 212
+                                     },
+                                     {
+                                     "id": "free",
+                                     "name": "Free shipping",
+                                     "results": 20
+                                     },
+                                     {
+                                     "id": "sameday",
+                                     "name": "Moto en el día",
+                                     "results": 8
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "power_seller",
+                          "name": "Seller quality filter",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "yes",
+                                     "name": "Best sellers",
+                                     "results": 29
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "buying_mode",
+                          "name": "Buying mode filter",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "buy_it_now",
+                                     "name": "Buy it now",
+                                     "results": 1184
+                                     },
+                                     {
+                                     "id": "auction",
+                                     "name": "Auction",
+                                     "results": 16
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "since",
+                          "name": "Auction start date filter",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "today",
+                                     "name": "Starting today",
+                                     "results": 73
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "until",
+                          "name": "Auction stop filter",
+                          "type": "text",
+                          "values": [
+                                     {
+                                     "id": "today",
+                                     "name": "Ending today",
+                                     "results": 38
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "has_video",
+                          "name": "Video publications filter",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "yes",
+                                     "name": "Publications with video",
+                                     "results": 49
+                                     }
+                                     ]
+                          },
+                          {
+                          "id": "has_pictures",
+                          "name": "Items with images filter",
+                          "type": "boolean",
+                          "values": [
+                                     {
+                                     "id": "yes",
+                                     "name": "With pictures",
+                                     "results": 1178
+                                     }
+                                     ]
+                          }
+                          ]
+}
