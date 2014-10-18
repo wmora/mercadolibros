@@ -15,6 +15,9 @@
 		08FFCC5E19F1EF0700914866 /* WMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC5C19F1EF0700914866 /* WMHomeViewController.m */; };
 		08FFCC5F19F1EF0700914866 /* WMHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08FFCC5D19F1EF0700914866 /* WMHomeViewController.xib */; };
 		08FFCC6119F2030700914866 /* WMHomeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC6019F2030700914866 /* WMHomeViewControllerTests.m */; };
+		08FFCC6519F2236B00914866 /* WMSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC6319F2236B00914866 /* WMSearchResultsViewController.m */; };
+		08FFCC6619F2236B00914866 /* WMSearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08FFCC6419F2236B00914866 /* WMSearchResultsViewController.xib */; };
+		08FFCC6919F22C9A00914866 /* WMNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC6819F22C9A00914866 /* WMNavigationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,11 @@
 		08FFCC5C19F1EF0700914866 /* WMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMHomeViewController.m; sourceTree = "<group>"; };
 		08FFCC5D19F1EF0700914866 /* WMHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMHomeViewController.xib; sourceTree = "<group>"; };
 		08FFCC6019F2030700914866 /* WMHomeViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMHomeViewControllerTests.m; sourceTree = "<group>"; };
+		08FFCC6219F2236B00914866 /* WMSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSearchResultsViewController.h; sourceTree = "<group>"; };
+		08FFCC6319F2236B00914866 /* WMSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSearchResultsViewController.m; sourceTree = "<group>"; };
+		08FFCC6419F2236B00914866 /* WMSearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMSearchResultsViewController.xib; sourceTree = "<group>"; };
+		08FFCC6719F22C9A00914866 /* WMNavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNavigationManager.h; sourceTree = "<group>"; };
+		08FFCC6819F22C9A00914866 /* WMNavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNavigationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,11 @@
 				08FFCC5B19F1EF0700914866 /* WMHomeViewController.h */,
 				08FFCC5C19F1EF0700914866 /* WMHomeViewController.m */,
 				08FFCC5D19F1EF0700914866 /* WMHomeViewController.xib */,
+				08FFCC6219F2236B00914866 /* WMSearchResultsViewController.h */,
+				08FFCC6319F2236B00914866 /* WMSearchResultsViewController.m */,
+				08FFCC6419F2236B00914866 /* WMSearchResultsViewController.xib */,
+				08FFCC6719F22C9A00914866 /* WMNavigationManager.h */,
+				08FFCC6819F22C9A00914866 /* WMNavigationManager.m */,
 			);
 			path = MercadolibrOS;
 			sourceTree = "<group>";
@@ -206,6 +219,7 @@
 				08FFCC5F19F1EF0700914866 /* WMHomeViewController.xib in Resources */,
 				08FFCC4419F1E02B00914866 /* LaunchScreen.xib in Resources */,
 				08FFCC4119F1E02B00914866 /* Images.xcassets in Resources */,
+				08FFCC6619F2236B00914866 /* WMSearchResultsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08FFCC3919F1E02B00914866 /* AppDelegate.m in Sources */,
+				08FFCC6919F22C9A00914866 /* WMNavigationManager.m in Sources */,
+				08FFCC6519F2236B00914866 /* WMSearchResultsViewController.m in Sources */,
 				08FFCC5E19F1EF0700914866 /* WMHomeViewController.m in Sources */,
 				08FFCC3619F1E02B00914866 /* main.m in Sources */,
 			);

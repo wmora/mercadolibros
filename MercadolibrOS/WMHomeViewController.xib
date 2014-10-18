@@ -6,6 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WMHomeViewController">
             <connections>
+                <outlet property="queryTextField" destination="M6K-qO-vNw" id="utC-fM-FfL"/>
+                <outlet property="searchButton" destination="9AL-E8-FDF" id="uCL-iQ-3HQ"/>
+                <outlet property="titleLabel" destination="Uhf-oX-enJ" id="RMK-yB-N2s"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -13,7 +16,86 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="iPhone 6" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M6K-qO-vNw">
+                    <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Que buscas?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uhf-oX-enJ">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="8J4-oJ-jZy"/>
+                        <constraint firstAttribute="width" constant="102" id="UvE-VN-q51"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="8J4-oJ-jZy"/>
+                            <exclude reference="UvE-VN-q51"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="8J4-oJ-jZy"/>
+                            <include reference="UvE-VN-q51"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9AL-E8-FDF">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" title="Buscar">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTouchUpInsideSearchButton:" destination="-1" eventType="touchUpInside" id="K2G-55-9ja"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="M6K-qO-vNw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2tU-wv-cJ6"/>
+                <constraint firstItem="9AL-E8-FDF" firstAttribute="centerX" secondItem="M6K-qO-vNw" secondAttribute="centerX" id="RHO-qd-kyJ"/>
+                <constraint firstItem="M6K-qO-vNw" firstAttribute="centerX" secondItem="Uhf-oX-enJ" secondAttribute="centerX" id="RsU-84-eGW"/>
+                <constraint firstItem="9AL-E8-FDF" firstAttribute="top" secondItem="M6K-qO-vNw" secondAttribute="bottom" constant="8" symbolic="YES" id="YsL-aV-ABv"/>
+                <constraint firstItem="Uhf-oX-enJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="92" id="b0e-8t-IPy"/>
+                <constraint firstItem="M6K-qO-vNw" firstAttribute="top" secondItem="Uhf-oX-enJ" secondAttribute="bottom" constant="16" id="dm0-fl-oMn"/>
+                <constraint firstItem="M6K-qO-vNw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="62" id="hYu-f5-1Ga"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="M6K-qO-vNw"/>
+                    <exclude reference="Uhf-oX-enJ"/>
+                    <exclude reference="9AL-E8-FDF"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="2tU-wv-cJ6"/>
+                    <exclude reference="RsU-84-eGW"/>
+                    <exclude reference="dm0-fl-oMn"/>
+                    <exclude reference="hYu-f5-1Ga"/>
+                    <exclude reference="b0e-8t-IPy"/>
+                    <exclude reference="RHO-qd-kyJ"/>
+                    <exclude reference="YsL-aV-ABv"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="M6K-qO-vNw"/>
+                    <include reference="Uhf-oX-enJ"/>
+                    <include reference="9AL-E8-FDF"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="2tU-wv-cJ6"/>
+                    <include reference="RsU-84-eGW"/>
+                    <include reference="dm0-fl-oMn"/>
+                    <include reference="hYu-f5-1Ga"/>
+                    <include reference="b0e-8t-IPy"/>
+                    <include reference="RHO-qd-kyJ"/>
+                    <include reference="YsL-aV-ABv"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>

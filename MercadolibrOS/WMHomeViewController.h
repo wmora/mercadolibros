@@ -10,4 +10,10 @@
 
 @interface WMHomeViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UITextField *queryTextField;
+@property (weak, nonatomic) IBOutlet UIButton *searchButton;
+
+- (IBAction)didTouchUpInsideSearchButton:(id)sender;
+
 @end
