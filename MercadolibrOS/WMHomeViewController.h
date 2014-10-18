@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WMHomeViewController.h
 //  MercadolibrOS
 //
 //  Created by William Mora on 17/10/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WMHomeViewController : UIViewController
 
 @end
-
