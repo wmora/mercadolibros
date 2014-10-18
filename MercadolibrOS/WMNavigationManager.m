@@ -50,7 +50,7 @@ static WMNavigationManager *sharedNavigationManager = nil;
 }
 
 - (void)navigateToSearchResultsViewControllerWithQuery:(NSString *)query {
-	WMSearchResultsViewController *searchResultsViewController = [[WMSearchResultsViewController alloc] initWithNibName:@"WMSearchResultsViewController" bundle:nil];
+	WMSearchResultsViewController *searchResultsViewController = [[WMSearchResultsViewController alloc] initWithNibName:@"WMSearchResultsViewController" bundle:nil query:query];
 	[self.navigationController pushViewController:searchResultsViewController animated:YES];
 }
 

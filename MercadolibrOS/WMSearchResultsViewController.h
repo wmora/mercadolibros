@@ -10,4 +10,6 @@
 
 @interface WMSearchResultsViewController : UIViewController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil query:(NSString *)query;
+
 @end
