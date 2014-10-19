@@ -13,9 +13,9 @@
 - (id)initWithTotal:(NSNumber *)total offset:(NSNumber *)offset limit:(NSNumber *)limit {
 	self = [self init];
 	if (self) {
-		self.total = total;
-		self.offset = offset;
-		self.limit = limit;
+		self.total = total != nil ? total : self.total;
+		self.offset = offset != nil ? offset : self.offset;
+		self.limit = limit != nil ? limit : self.limit;
 	}
 	return self;
 }
@@ -23,7 +23,9 @@
 - (id)init {
 	self = [super init];
 	if (self) {
+		self.total = [NSNumber numberWithInt:0];
 		self.limit = [NSNumber numberWithInt:20];
+		self.offset = [NSNumber numberWithInt:0];
 	}
 	return self;
 }
