@@ -36,6 +36,15 @@
 	}];
 }
 
+- (void)mockFailureResponse {
+	[OHHTTPStubs stubRequestsPassingTest: ^BOOL (NSURLRequest *request) {
+	    return [request.URL.host isEqualToString:@"api.mercadolibre.com"];
+	} withStubResponse: ^OHHTTPStubsResponse *(NSURLRequest *request) {
+	    return [OHHTTPStubsResponse responseWithFileAtPath:OHPathForFileInBundle(@"", nil)
+	                                            statusCode:400 headers:@{ @"Content-Type":@"text/json" }];
+	}];
+}
+
 - (void)mockErrorResponse {
 	[OHHTTPStubs stubRequestsPassingTest: ^BOOL (NSURLRequest *request) {
 	    return [request.URL.host isEqualToString:@"api.mercadolibre.com"];
@@ -46,6 +55,16 @@
 
 - (void)testSearchWithQueryShouldReturnASearchInstanceOnRequestSuccess {
 	[self mockSuccessResponse];
+	XCTestExpectation *expectation = [self expectationWithDescription:@"asynchronous request"];
+	[WMSearchService searchWithQuery:@"ipod" paging:nil completionHandler: ^(WMSearch *search, NSError *error) {
+	    XCTAssertNotNil(search);
+	    [expectation fulfill];
+	}];
+	[self waitForExpectationsWithTimeout:10.0 handler:nil];
+}
+
+- (void)testSearchWithQueryShouldReturnASearchInstanceOnRequestFailure {
+	[self mockFailureResponse];
 	XCTestExpectation *expectation = [self expectationWithDescription:@"asynchronous request"];
 	[WMSearchService searchWithQuery:@"ipod" paging:nil completionHandler: ^(WMSearch *search, NSError *error) {
 	    XCTAssertNotNil(search);
