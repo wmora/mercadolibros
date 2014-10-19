@@ -18,17 +18,17 @@
 
 - (void)testPagingShouldBeCreatedWithtDefaultLimit {
 	WMPaging *paging = [[WMPaging alloc] init];
-	XCTAssertEqual(paging.limit, [NSNumber numberWithInt:20]);
+	XCTAssertEqual(paging.limit, [NSNumber numberWithInteger:20]);
 }
 
 - (void)testPagingShouldBeCreatedWithDefaultOffset {
 	WMPaging *paging = [[WMPaging alloc] init];
-	XCTAssertEqual(paging.offset, [NSNumber numberWithInt:0]);
+	XCTAssertEqual(paging.offset, [NSNumber numberWithInteger:0]);
 }
 
 - (void)testPagingShouldBeCreatedWithDefaultTotal {
 	WMPaging *paging = [[WMPaging alloc] init];
-	XCTAssertEqual(paging.total, [NSNumber numberWithInt:0]);
+	XCTAssertEqual(paging.total, [NSNumber numberWithInteger:0]);
 }
 
 - (void)testPagingWithLimitShouldChangeDefaultValue {
@@ -48,17 +48,17 @@
 
 - (void)testInitPagingWithNilLimitShouldKeepDefaultValue {
 	WMPaging *paging = [[WMPaging alloc] initWithTotal:nil offset:nil limit:nil];
-	XCTAssertEqual(paging.limit, [NSNumber numberWithInt:20]);
+	XCTAssertEqual(paging.limit, [NSNumber numberWithInteger:20]);
 }
 
 - (void)testInitPagingWithNilOffsetShouldKeepDefaultValue {
 	WMPaging *paging = [[WMPaging alloc] initWithTotal:nil offset:nil limit:nil];
-	XCTAssertEqual(paging.offset, [NSNumber numberWithInt:0]);
+	XCTAssertEqual(paging.offset, [NSNumber numberWithInteger:0]);
 }
 
 - (void)testInitPagingWithNilTotalShouldKeepDefaultValue {
 	WMPaging *paging = [[WMPaging alloc] initWithTotal:nil offset:nil limit:nil];
-	XCTAssertEqual(paging.total, [NSNumber numberWithInt:0]);
+	XCTAssertEqual(paging.total, [NSNumber numberWithInteger:0]);
 }
 
 @end
