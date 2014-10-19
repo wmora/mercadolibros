@@ -14,4 +14,6 @@
 @property (strong, nonatomic) NSNumber *offset;
 @property (strong, nonatomic) NSNumber *limit;
 
+- (id)initWithTotal:(NSNumber *)total offset:(NSNumber *)offset limit:(NSNumber *)limit;
+
 @end

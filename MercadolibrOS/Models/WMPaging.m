@@ -10,6 +10,16 @@
 
 @implementation WMPaging
 
+- (id)initWithTotal:(NSNumber *)total offset:(NSNumber *)offset limit:(NSNumber *)limit {
+	self = [self init];
+	if (self) {
+		self.total = total;
+		self.offset = offset;
+		self.limit = limit;
+	}
+	return self;
+}
+
 - (id)init {
 	self = [super init];
 	if (self) {
