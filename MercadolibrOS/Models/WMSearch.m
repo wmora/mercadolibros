@@ -17,11 +17,11 @@
 		NSDictionary *jsonData = [NSJSONSerialization JSONObjectWithData:data
 		                                                         options:NSJSONReadingMutableContainers
 		                                                           error:nil];
-		self.query = (NSString *)[jsonData objectForKey:@"query"];
-		NSDictionary *paging = ((NSDictionary *)[jsonData objectForKey:@"paging"]);
-		NSNumber *total = (NSNumber *)[paging objectForKey:@"total"];
-		NSNumber *offset = (NSNumber *)[paging objectForKey:@"offset"];
-		NSNumber *limit = (NSNumber *)[paging objectForKey:@"limit"];
+		self.query = (NSString *)jsonData[@"query"];
+		NSDictionary *paging = ((NSDictionary *)jsonData[@"paging"]);
+		NSNumber *total = (NSNumber *)paging[@"total"];
+		NSNumber *offset = (NSNumber *)paging[@"offset"];
+		NSNumber *limit = (NSNumber *)paging[@"limit"];
 		self.paging = [[WMPaging alloc] initWithTotal:total offset:offset limit:limit];
 	}
 	return self;
