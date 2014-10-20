@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "WMSearch.h"
+#import "WMItem.h"
 
 @interface WMSearchTests : XCTestCase {
 	@private
@@ -48,6 +49,18 @@
 - (void)testInitSearchWithValidDataShouldCreateValidPagingLimit {
 	WMSearch *search = [[WMSearch alloc] initWithData:validData];
 	XCTAssertEqual(search.paging.limit, [NSNumber numberWithInteger:10]);
+}
+
+- (void)testInitSearchWithValidDataShouldCreateArrayOfResults {
+	WMSearch *search = [[WMSearch alloc] initWithData:validData];
+	XCTAssertEqual(search.results.count, 10);
+}
+
+- (void)testInitSearchWithValidDataShouldCreateArrayOfResultsOfItems {
+	WMSearch *search = [[WMSearch alloc] initWithData:validData];
+	for (NSObject *item in search.results) {
+		XCTAssert([item isKindOfClass:[WMItem class]]);
+	}
 }
 
 @end

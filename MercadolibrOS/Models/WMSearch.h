@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) NSString *query;
 @property (strong, nonatomic) WMPaging *paging;
+@property (strong, nonatomic) NSMutableArray *results;
 
 - (id)initWithData:(NSData *)data;
 

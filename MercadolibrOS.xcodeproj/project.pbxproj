@@ -17,6 +17,7 @@
 		08506CA719F419A100B206B9 /* WMPagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08506CA619F419A100B206B9 /* WMPagingTests.m */; };
 		08506CA919F4242400B206B9 /* WMSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08506CA819F4242400B206B9 /* WMSearchTests.m */; };
 		08506CAC19F4317300B206B9 /* WMItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08506CAB19F4317300B206B9 /* WMItem.m */; };
+		08506CAE19F4AADA00B206B9 /* WMItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08506CAD19F4AADA00B206B9 /* WMItemTests.m */; };
 		08FFCC3619F1E02B00914866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC3519F1E02B00914866 /* main.m */; };
 		08FFCC3919F1E02B00914866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC3819F1E02B00914866 /* AppDelegate.m */; };
 		08FFCC4119F1E02B00914866 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08FFCC4019F1E02B00914866 /* Images.xcassets */; };
@@ -54,6 +55,7 @@
 		08506CA819F4242400B206B9 /* WMSearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSearchTests.m; sourceTree = "<group>"; };
 		08506CAA19F4317300B206B9 /* WMItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMItem.h; sourceTree = "<group>"; };
 		08506CAB19F4317300B206B9 /* WMItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMItem.m; sourceTree = "<group>"; };
+		08506CAD19F4AADA00B206B9 /* WMItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMItemTests.m; sourceTree = "<group>"; };
 		08FFCC3019F1E02B00914866 /* MercadolibrOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MercadolibrOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FFCC3419F1E02B00914866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08FFCC3519F1E02B00914866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		08FFCC4C19F1E02C00914866 /* MercadolibrOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				08506CAD19F4AADA00B206B9 /* WMItemTests.m */,
 				08506CA819F4242400B206B9 /* WMSearchTests.m */,
 				08506CA619F419A100B206B9 /* WMPagingTests.m */,
 				08506CA119F321CB00B206B9 /* Responses */,
@@ -394,6 +397,7 @@
 				08FFCC6119F2030700914866 /* WMHomeViewControllerTests.m in Sources */,
 				08506C9019F2DE5400B206B9 /* WMSearchServiceTests.m in Sources */,
 				08506CA719F419A100B206B9 /* WMPagingTests.m in Sources */,
+				08506CAE19F4AADA00B206B9 /* WMItemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

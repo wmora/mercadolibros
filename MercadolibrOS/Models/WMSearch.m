@@ -8,6 +8,7 @@
 
 #import "WMSearch.h"
 #import "WMPaging.h"
+#import "WMItem.h"
 
 @implementation WMSearch
 
@@ -18,11 +19,19 @@
 		                                                         options:NSJSONReadingMutableContainers
 		                                                           error:nil];
 		self.query = (NSString *)jsonData[@"query"];
+
 		NSDictionary *paging = ((NSDictionary *)jsonData[@"paging"]);
 		NSNumber *total = (NSNumber *)paging[@"total"];
 		NSNumber *offset = (NSNumber *)paging[@"offset"];
 		NSNumber *limit = (NSNumber *)paging[@"limit"];
 		self.paging = [[WMPaging alloc] initWithTotal:total offset:offset limit:limit];
+
+		NSArray *results = jsonData[@"results"];
+		self.results = [[NSMutableArray alloc] initWithCapacity:results.count];
+		for (NSDictionary *result in results) {
+			WMItem *item = [[WMItem alloc] initWithParams:result];
+			[self.results addObject:item];
+		}
 	}
 	return self;
 }
