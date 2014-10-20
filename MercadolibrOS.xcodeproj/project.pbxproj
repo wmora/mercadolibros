@@ -23,12 +23,12 @@
 		08FFCC4119F1E02B00914866 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08FFCC4019F1E02B00914866 /* Images.xcassets */; };
 		08FFCC4419F1E02B00914866 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08FFCC4219F1E02B00914866 /* LaunchScreen.xib */; };
 		08FFCC5A19F1EDDB00914866 /* AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC5919F1EDDB00914866 /* AppDelegateTests.m */; };
-		08FFCC5E19F1EF0700914866 /* WMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC5C19F1EF0700914866 /* WMHomeViewController.m */; };
 		08FFCC5F19F1EF0700914866 /* WMHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08FFCC5D19F1EF0700914866 /* WMHomeViewController.xib */; };
 		08FFCC6119F2030700914866 /* WMHomeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC6019F2030700914866 /* WMHomeViewControllerTests.m */; };
-		08FFCC6519F2236B00914866 /* WMSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC6319F2236B00914866 /* WMSearchResultsViewController.m */; };
 		08FFCC6619F2236B00914866 /* WMSearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08FFCC6419F2236B00914866 /* WMSearchResultsViewController.xib */; };
-		08FFCC6919F22C9A00914866 /* WMNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC6819F22C9A00914866 /* WMNavigationManager.m */; };
+		27EA2D6B19F57E3300769D6E /* WMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC5C19F1EF0700914866 /* WMHomeViewController.m */; };
+		27EA2D6C19F57E3300769D6E /* WMSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC6319F2236B00914866 /* WMSearchResultsViewController.m */; };
+		27EA2D7119F585A100769D6E /* WMNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FFCC6819F22C9A00914866 /* WMNavigationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,15 +66,15 @@
 		08FFCC4919F1E02C00914866 /* MercadolibrOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercadolibrOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FFCC4E19F1E02C00914866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08FFCC5919F1EDDB00914866 /* AppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateTests.m; sourceTree = "<group>"; };
-		08FFCC5B19F1EF0700914866 /* WMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMHomeViewController.h; path = ../WMHomeViewController.h; sourceTree = "<group>"; };
-		08FFCC5C19F1EF0700914866 /* WMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMHomeViewController.m; path = ../WMHomeViewController.m; sourceTree = "<group>"; };
-		08FFCC5D19F1EF0700914866 /* WMHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WMHomeViewController.xib; path = ../WMHomeViewController.xib; sourceTree = "<group>"; };
+		08FFCC5B19F1EF0700914866 /* WMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMHomeViewController.h; sourceTree = "<group>"; };
+		08FFCC5C19F1EF0700914866 /* WMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMHomeViewController.m; sourceTree = "<group>"; };
+		08FFCC5D19F1EF0700914866 /* WMHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMHomeViewController.xib; sourceTree = "<group>"; };
 		08FFCC6019F2030700914866 /* WMHomeViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMHomeViewControllerTests.m; sourceTree = "<group>"; };
-		08FFCC6219F2236B00914866 /* WMSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMSearchResultsViewController.h; path = ../WMSearchResultsViewController.h; sourceTree = "<group>"; };
-		08FFCC6319F2236B00914866 /* WMSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMSearchResultsViewController.m; path = ../WMSearchResultsViewController.m; sourceTree = "<group>"; };
-		08FFCC6419F2236B00914866 /* WMSearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WMSearchResultsViewController.xib; path = ../WMSearchResultsViewController.xib; sourceTree = "<group>"; };
-		08FFCC6719F22C9A00914866 /* WMNavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMNavigationManager.h; path = ../WMNavigationManager.h; sourceTree = "<group>"; };
-		08FFCC6819F22C9A00914866 /* WMNavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMNavigationManager.m; path = ../WMNavigationManager.m; sourceTree = "<group>"; };
+		08FFCC6219F2236B00914866 /* WMSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSearchResultsViewController.h; sourceTree = "<group>"; };
+		08FFCC6319F2236B00914866 /* WMSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSearchResultsViewController.m; sourceTree = "<group>"; };
+		08FFCC6419F2236B00914866 /* WMSearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMSearchResultsViewController.xib; sourceTree = "<group>"; };
+		08FFCC6719F22C9A00914866 /* WMNavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNavigationManager.h; sourceTree = "<group>"; };
+		08FFCC6819F22C9A00914866 /* WMNavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNavigationManager.m; sourceTree = "<group>"; };
 		68298690A596A12CD3F4C2E8 /* Pods-MercadolibrOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadolibrOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MercadolibrOSTests/Pods-MercadolibrOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		98AA31FD52B4A1CACD8A2BE5 /* libPods-MercadolibrOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MercadolibrOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293BA9E90E77319DDF6966D /* Pods-MercadolibrOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadolibrOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MercadolibrOSTests/Pods-MercadolibrOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,28 +121,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		08506C8D19F2D9D900B206B9 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				08FFCC6719F22C9A00914866 /* WMNavigationManager.h */,
-				08FFCC6819F22C9A00914866 /* WMNavigationManager.m */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		08506C8E19F2D9D900B206B9 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				08FFCC5B19F1EF0700914866 /* WMHomeViewController.h */,
-				08FFCC5C19F1EF0700914866 /* WMHomeViewController.m */,
-				08FFCC5D19F1EF0700914866 /* WMHomeViewController.xib */,
-				08FFCC6219F2236B00914866 /* WMSearchResultsViewController.h */,
-				08FFCC6319F2236B00914866 /* WMSearchResultsViewController.m */,
-				08FFCC6419F2236B00914866 /* WMSearchResultsViewController.xib */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		08506CA119F321CB00B206B9 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,10 +152,10 @@
 		08FFCC3219F1E02B00914866 /* MercadolibrOS */ = {
 			isa = PBXGroup;
 			children = (
+				27EA2D7019F5857200769D6E /* Utils */,
+				27EA2D6F19F5856100769D6E /* ViewControllers */,
 				08506C8B19F2D9D900B206B9 /* Models */,
 				08506C8C19F2D9D900B206B9 /* Services */,
-				08506C8D19F2D9D900B206B9 /* Utils */,
-				08506C8E19F2D9D900B206B9 /* ViewControllers */,
 				08FFCC3719F1E02B00914866 /* AppDelegate.h */,
 				08FFCC3819F1E02B00914866 /* AppDelegate.m */,
 				08FFCC4019F1E02B00914866 /* Images.xcassets */,
@@ -218,6 +196,28 @@
 				08FFCC4E19F1E02C00914866 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27EA2D6F19F5856100769D6E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08FFCC5B19F1EF0700914866 /* WMHomeViewController.h */,
+				08FFCC5C19F1EF0700914866 /* WMHomeViewController.m */,
+				08FFCC5D19F1EF0700914866 /* WMHomeViewController.xib */,
+				08FFCC6219F2236B00914866 /* WMSearchResultsViewController.h */,
+				08FFCC6319F2236B00914866 /* WMSearchResultsViewController.m */,
+				08FFCC6419F2236B00914866 /* WMSearchResultsViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		27EA2D7019F5857200769D6E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				08FFCC6719F22C9A00914866 /* WMNavigationManager.h */,
+				08FFCC6819F22C9A00914866 /* WMNavigationManager.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		31E21859B8D3B11F985973B4 /* Frameworks */ = {
@@ -375,11 +375,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27EA2D7119F585A100769D6E /* WMNavigationManager.m in Sources */,
+				27EA2D6B19F57E3300769D6E /* WMHomeViewController.m in Sources */,
+				27EA2D6C19F57E3300769D6E /* WMSearchResultsViewController.m in Sources */,
 				08FFCC3919F1E02B00914866 /* AppDelegate.m in Sources */,
-				08FFCC6919F22C9A00914866 /* WMNavigationManager.m in Sources */,
-				08FFCC6519F2236B00914866 /* WMSearchResultsViewController.m in Sources */,
 				08506CAC19F4317300B206B9 /* WMItem.m in Sources */,
-				08FFCC5E19F1EF0700914866 /* WMHomeViewController.m in Sources */,
 				08FFCC3619F1E02B00914866 /* main.m in Sources */,
 				08506C9619F2DF2F00B206B9 /* WMSearch.m in Sources */,
 				08506C9319F2DE9A00B206B9 /* WMSearchService.m in Sources */,
