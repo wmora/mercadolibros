@@ -49,7 +49,7 @@
 	XCTAssertTrue([homeViewController.queryTextField.placeholder length] > 0);
 }
 
-- (void)testSearchButtonShouldBeDisabledIfByDefault {
+- (void)testSearchButtonShouldBeDisabledByDefault {
 	XCTAssertFalse([homeViewController.searchButton isEnabled]);
 }
 
