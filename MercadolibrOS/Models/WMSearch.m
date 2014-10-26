@@ -61,6 +61,7 @@
 	        return;
 		}
 	    self.paging = search.paging;
+	    [self.paging updateOffset];
 	    for (WMItem * item in search.results) {
 	        [self.results addObject:item];
 		}

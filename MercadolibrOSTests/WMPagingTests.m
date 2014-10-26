@@ -61,4 +61,11 @@
 	XCTAssertEqual(paging.total, [NSNumber numberWithInteger:0]);
 }
 
+- (void)testUpdateOffsetShouldAddLimitToCurrentOffset {
+	WMPaging *paging = [[WMPaging alloc] initWithTotal:nil offset:nil limit:nil];
+	XCTAssertEqual(paging.offset, [NSNumber numberWithInteger:0]);
+	[paging updateOffset];
+	XCTAssertEqual(paging.offset, [NSNumber numberWithInteger:20]);
+}
+
 @end

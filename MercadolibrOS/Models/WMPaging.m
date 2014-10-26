@@ -30,4 +30,8 @@
 	return self;
 }
 
+- (void)updateOffset {
+	self.offset = [NSNumber numberWithInteger:([self.offset intValue] + [self.limit intValue])];
+}
+
 @end
