@@ -9,6 +9,7 @@
 #import "WMSearch.h"
 #import "WMPaging.h"
 #import "WMItem.h"
+#import "WMSearchService.h"
 
 @implementation WMSearch
 
@@ -34,6 +35,39 @@
 		}
 	}
 	return self;
+}
+
+- (id)initWithQuery:(NSString *)query {
+	self = [super init];
+	if (self) {
+		self.query = query;
+		self.paging = nil;
+		self.results = nil;
+	}
+	return self;
+}
+
+- (BOOL)hasResults {
+	return [self.results count] > 0;
+}
+
+- (void)loadResults {
+	[WMSearchService searchWithQuery:[self query] paging:[self paging] completionHandler:
+	 ^(WMSearch *search, NSError *error) {
+	    if (error) {
+	        if ([self.delegate respondsToSelector:@selector(onSearchFailure:)]) {
+	            [self.delegate onSearchFailure:error];
+			}
+	        return;
+		}
+	    self.paging = search.paging;
+	    for (WMItem * item in search.results) {
+	        [self.results addObject:item];
+		}
+	    [self.delegate onSearchSuccess:search];
+	}
+
+	];
 }
 
 @end

@@ -7,10 +7,14 @@
 //
 
 #import "WMSearchResultsViewController.h"
+#import "WMSearch.h"
+#import "WMSearchService.h"
+#import "WMSearchDelegate.h"
 
 @interface WMSearchResultsViewController ()
 
-@property (strong, nonatomic) NSString *query;
+@property (weak, nonatomic) IBOutlet UILabel *searchLabel;
+@property (strong, nonatomic) WMSearch *search;
 
 @end
 
@@ -18,9 +22,18 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil query:(NSString *)query {
 	if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-		self.query = query;
+		self.search = [[WMSearch alloc] initWithQuery:query];
+		self.search.delegate = self;
 	}
 	return self;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+
+	if (![self.search hasResults]) {
+		[self.search loadResults];
+	}
 }
 
 - (void)viewDidLoad {
@@ -28,9 +41,9 @@
 	// Do any additional setup after loading the view from its nib.
 }
 
-- (void)didReceiveMemoryWarning {
-	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
+- (void)onSearchSuccess:(WMSearch *)search {
+	self.search = search;
+	self.searchLabel.text = [self.search.results description];
 }
 
 @end

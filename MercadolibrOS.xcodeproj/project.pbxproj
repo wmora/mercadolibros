@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		082D3A2419FD67F000D023F7 /* WMSearchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMSearchDelegate.h; path = Protocols/WMSearchDelegate.h; sourceTree = "<group>"; };
 		08506C6D19F2829C00B206B9 /* WMNavigationManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNavigationManagerTests.m; sourceTree = "<group>"; };
 		08506C8F19F2DE5400B206B9 /* WMSearchServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSearchServiceTests.m; sourceTree = "<group>"; };
 		08506C9119F2DE9A00B206B9 /* WMSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSearchService.h; sourceTree = "<group>"; };
@@ -99,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		082D3A2319FD66C100D023F7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				082D3A2419FD67F000D023F7 /* WMSearchDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		08506C8B19F2D9D900B206B9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +161,7 @@
 		08FFCC3219F1E02B00914866 /* MercadolibrOS */ = {
 			isa = PBXGroup;
 			children = (
+				082D3A2319FD66C100D023F7 /* Protocols */,
 				27EA2D7019F5857200769D6E /* Utils */,
 				27EA2D6F19F5856100769D6E /* ViewControllers */,
 				08506C8B19F2D9D900B206B9 /* Models */,

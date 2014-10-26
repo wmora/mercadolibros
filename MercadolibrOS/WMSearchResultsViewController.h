@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WMSearchDelegate.h"
 
-@interface WMSearchResultsViewController : UIViewController
+@interface WMSearchResultsViewController : UIViewController <WMSearchDelegate>
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil query:(NSString *)query;
 
