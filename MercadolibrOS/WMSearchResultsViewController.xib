@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WMSearchResultsViewController">
             <connections>
-                <outlet property="searchLabel" destination="7ab-jA-Ecu" id="NEe-KY-w6F"/>
+                <outlet property="resultsLabel" destination="KJG-C3-K7T" id="9Da-lY-7pc"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,8 +16,11 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ab-jA-Ecu">
-                    <rect key="frame" x="8" y="73" width="584" height="512"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJG-C3-K7T">
+                    <rect key="frame" x="8" y="77" width="584" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="uoI-hp-6de"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
@@ -25,10 +28,9 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="7ab-jA-Ecu" secondAttribute="bottom" constant="15" id="R5x-Uv-rkC"/>
-                <constraint firstItem="7ab-jA-Ecu" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="XkF-CU-gE0"/>
-                <constraint firstItem="7ab-jA-Ecu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="bvi-vS-Kvs"/>
-                <constraint firstItem="7ab-jA-Ecu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="73" id="wrk-6H-thq"/>
+                <constraint firstItem="KJG-C3-K7T" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="77" id="1RP-8r-lu7"/>
+                <constraint firstItem="KJG-C3-K7T" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="Jep-h3-cQn"/>
+                <constraint firstItem="KJG-C3-K7T" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="gGK-1h-zGT"/>
             </constraints>
         </view>
     </objects>

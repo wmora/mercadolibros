@@ -13,7 +13,7 @@
 
 @interface WMSearchResultsViewController ()
 
-@property (weak, nonatomic) IBOutlet UILabel *searchLabel;
+@property (weak, nonatomic) IBOutlet UILabel *resultsLabel;
 @property (strong, nonatomic) WMSearch *search;
 
 @end
@@ -34,6 +34,8 @@
 	if (![self.search hasResults]) {
 		[self.search loadResults];
 	}
+
+	self.resultsLabel.text = [NSString stringWithFormat:@"Resultados para %@", self.search.query];
 }
 
 - (void)viewDidLoad {
@@ -43,7 +45,6 @@
 
 - (void)onSearchSuccess:(WMSearch *)search {
 	self.search = search;
-	self.searchLabel.text = [self.search.results description];
 }
 
 @end
