@@ -64,7 +64,7 @@
 	    for (WMItem * item in search.results) {
 	        [self.results addObject:item];
 		}
-	    [self.delegate onSearchSuccess:search];
+	    [self.delegate onSearchSuccess:self];
 	}
 
 	];

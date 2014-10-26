@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import <OCMock/OCMock.h>
 #import "WMSearch.h"
 #import "WMItem.h"
+#import "WMSearchService.h"
 
 @interface WMSearchTests : XCTestCase {
 	@private
@@ -61,6 +63,29 @@
 	for (NSObject *item in search.results) {
 		XCTAssert([item isKindOfClass:[WMItem class]]);
 	}
+}
+
+- (void)testInitSearchWithQueryShouldCreateSearchWithQuery {
+	WMSearch *search = [[WMSearch alloc] initWithQuery:@"ipod"];
+	XCTAssert([search.query isEqualToString:@"ipod"]);
+}
+
+- (void)testHasResultsShouldReturnNoIfResultsIsNil {
+	WMSearch *search = [[WMSearch alloc] init];
+	XCTAssertFalse([search hasResults]);
+}
+
+- (void)testHasResultsShouldReturnNoIfResultsIsEmptyArray {
+	WMSearch *search = [[WMSearch alloc] init];
+	search.results = [[NSMutableArray alloc] initWithCapacity:0];
+	XCTAssertFalse([search hasResults]);
+}
+
+- (void)testHasResultsShouldReturnYesIfResultsIsNonEmptyArray {
+	WMSearch *search = [[WMSearch alloc] init];
+	search.results = [[NSMutableArray alloc] init];
+	[search.results addObject:@"Object"];
+	XCTAssertTrue([search hasResults]);
 }
 
 @end
