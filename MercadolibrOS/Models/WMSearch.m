@@ -42,7 +42,7 @@
 	if (self) {
 		self.query = query;
 		self.paging = nil;
-		self.results = nil;
+		self.results = [NSMutableArray array];
 	}
 	return self;
 }
